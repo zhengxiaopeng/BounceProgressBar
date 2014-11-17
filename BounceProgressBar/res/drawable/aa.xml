@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap
+            android:gravity="left"
+            android:src="@drawable/ic_launcher" />
+    </item>
+    <item
+        android:bottom="50dp"
+        android:left="100dp">
+        <bitmap
+            android:gravity="left"
+            android:src="@drawable/ic_launcher" />
+    </item>
+    <item
+        android:bottom="100dp"
+        android:left="200dp">
+        <bitmap
+            android:gravity="left"
+            android:src="@drawable/ic_launcher" />
+    </item>
+    <item
+        android:left="300dp"
+        android:top="100dp">
+        <bitmap
+            android:gravity="left"
+            android:src="@drawable/ic_launcher" />
+    </item>
+    <item
+        android:left="400dp"
+        android:top="50dp">
+        <bitmap
+            android:gravity="left"
+            android:src="@drawable/ic_launcher" />
+    </item>
+
+</layer-list>
