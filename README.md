@@ -39,7 +39,7 @@ Declare an BounceProgressBar inside your XML layout file.
 
 ```
 
-####attr
+####the BounceProgressBar has the following attribute
 ```xml
 
 <declare-styleable name="BounceProgressBar">
