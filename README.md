@@ -11,7 +11,6 @@
 Declare an BounceProgressBar inside your XML layout file.
 
 ```xml
-
 <org.roc.bounceprogressbar.BounceProgressBar
             xmlns:bpb="http://schemas.android.com/apk/res-auto"
             android:layout_width="wrap_content"
@@ -22,14 +21,11 @@ Declare an BounceProgressBar inside your XML layout file.
             bpb:singleSrcSize="8dp"
             bpb:speed="250"
             bpb:src="#6495ED" />
-            
-
 ```
 
 or
 
 ```xml
-
 <org.roc.bounceprogressbar.BounceProgressBar
     		xmlns:bpb="http://schemas.android.com/apk/res-auto"
             android:layout_width="wrap_content"
@@ -40,13 +36,11 @@ or
             bpb:singleSrcSize="25dp"
             bpb:speed="300"
             bpb:src="@drawable/github" />
-
 ```
 
 ####the BounceProgressBar has the following attribute
 ```xml
-
-<declare-styleable name="BounceProgressBar">
+    <declare-styleable name="BounceProgressBar">
 
         <!-- the single child size -->
         <attr name="singleSrcSize" format="dimension" />
@@ -63,8 +57,8 @@ or
             <enum name="heart" value="4" />
         </attr>
         <!-- the progress drawable resource -->
-        <attr name="src" format="r
-
+        <attr name="src" format="reference|color"></attr>
+    </declare-styleable>
 ```
 
 ##More
@@ -72,7 +66,7 @@ or
 more detail please see blog: [Android 自定义View之BounceProgressBar](http://blog.csdn.net/bbld_/article/details/41246247 "Android 自定义View之BounceProgressBar") 
 
 ##License
-----
+-------
 
 ```
 Copyright 2014 Rocko.
