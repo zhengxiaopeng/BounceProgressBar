@@ -23,11 +23,15 @@ Declare an BounceProgressBar inside your XML layout file.
             bpb:speed="250"
             bpb:src="#6495ED" />
             
+
 ```
+
+or
 
 ```xml
 
 <org.roc.bounceprogressbar.BounceProgressBar
+    		xmlns:bpb="http://schemas.android.com/apk/res-auto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -65,10 +69,10 @@ Declare an BounceProgressBar inside your XML layout file.
 
 ##More
 ----
-loading...
+more detail please see blog: [Android 自定义View之BounceProgressBar](http://blog.csdn.net/bbld_/article/details/41246247 "Android 自定义View之BounceProgressBar") 
 
 ##License
--------
+----
 
 ```
 Copyright 2014 Rocko.
