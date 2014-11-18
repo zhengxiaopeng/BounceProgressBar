@@ -63,7 +63,7 @@ or
 
 ##More
 ----
-more detail please see blog: [Android 自定义View之BounceProgressBar](http://blog.csdn.net/bbld_/article/details/41246247 "Android 自定义View之BounceProgressBar") 
+more detail please see blog: [http://blog.csdn.net/bbld_/article/details/41246247](http://blog.csdn.net/bbld_/article/details/41246247 "csdn blog") 
 
 ##License
 -------
