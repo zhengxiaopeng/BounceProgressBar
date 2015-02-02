@@ -8,6 +8,13 @@
 
 ##Usage
 ----
+Add the dependency to your build.gradle.
+```gradle
+dependencies {
+    compile 'org.rocko.bpb:library:1.0.0'
+}
+```
+
 Declare an BounceProgressBar inside your XML layout file.
 
 ```xml
