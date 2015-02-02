@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bpb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="org.roc.bounceprogressbar.MainActivity">
+
+    <org.rocko.bpb.BounceProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        bpb:shape="circle"
+        bpb:singleSrcSize="10dp"
+        bpb:speed="240"
+        bpb:src="#6495ED" />
+
+    <org.rocko.bpb.BounceProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        bpb:shape="pentagon"
+        bpb:singleSrcSize="20dp"
+        bpb:speed="250"
+        bpb:src="#FFD700" />
+
+    <org.rocko.bpb.BounceProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        bpb:shape="heart"
+        bpb:singleSrcSize="20dp"
+        bpb:speed="250"
+        bpb:src="#FF0000" />
+
+
+    <org.rocko.bpb.BounceProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        bpb:shape="rhombus"
+        bpb:singleSrcSize="20dp"
+        bpb:speed="250"
+        bpb:src="#66CD00" />
+
+    <org.rocko.bpb.BounceProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        bpb:shape="original"
+        bpb:singleSrcSize="20dp"
+        bpb:speed="250"
+        bpb:src="@drawable/snowman" />
+
+    <org.rocko.bpb.BounceProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        bpb:shape="pentagon"
+        bpb:singleSrcSize="25dp"
+        bpb:speed="250"
+        bpb:src="@drawable/github" />
+
+    <org.rocko.bpb.BounceProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        bpb:shape="heart"
+        bpb:singleSrcSize="25dp"
+        bpb:speed="250"
+        bpb:src="@drawable/github" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BounceProgressBar">
+
+        <!-- the single child size -->
+        <attr name="singleSrcSize" format="dimension" />
+        <!-- the bounce animation one-way duration -->
+        <attr name="speed" format="integer" />
+        <!-- the child count -->
+        <!-- <attr name="count" format="integer" min="1" /> -->
+        <!-- the progress child shape -->
+        <attr name="shape" format="enum">
+            <enum name="original" value="0" />
+            <enum name="circle" value="1" />
+            <enum name="pentagon" value="2" />
+            <enum name="rhombus" value="3" />
+            <enum name="heart" value="4" />
+        </attr>
+        <!-- the progress drawable resource -->
+        <attr name="src" format="reference|color"></attr>
+    </declare-styleable>
+
+</resources>
