@@ -1,12 +1,12 @@
-#Android BounceProgressBar Widget
+# Android BounceProgressBar Widget
 ----
 
 
-##Screenshots
+## Screenshots
 ----
 ![image](https://raw.githubusercontent.com/zhengxiaopeng/BounceProgressBar/master/screenshots/bounce.gif)
 
-##Usage
+## Usage
 ----
 Add the dependency to your build.gradle.
 ```gradle
@@ -18,7 +18,7 @@ dependencies {
 Declare an BounceProgressBar inside your XML layout file.
 
 ```xml
-<org.roc.bounceprogressbar.BounceProgressBar
+<org.rocko.bpb.BounceProgressBar
             xmlns:bpb="http://schemas.android.com/apk/res-auto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@ Declare an BounceProgressBar inside your XML layout file.
 or
 
 ```xml
-<org.roc.bounceprogressbar.BounceProgressBar
+<org.rocko.bpb.BounceProgressBar
     		xmlns:bpb="http://schemas.android.com/apk/res-auto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
