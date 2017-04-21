@@ -1,5 +1,6 @@
 # Android BounceProgressBar Widget
 ----
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BounceProgressBar-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1221)
 
 
 ## Screenshots
@@ -70,7 +71,6 @@ or
 
 ## More
 ----
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BounceProgressBar-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1221)
 
 More detail please see blog: [http://blog.csdn.net/bbld_/article/details/41246247](http://blog.csdn.net/bbld_/article/details/41246247 "csdn blog")
 
