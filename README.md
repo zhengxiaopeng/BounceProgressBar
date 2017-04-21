@@ -45,7 +45,7 @@ or
             bpb:src="@drawable/github" />
 ```
 
-####The BounceProgressBar has the following attribute
+#### The BounceProgressBar has the following attribute
 ```xml
     <declare-styleable name="BounceProgressBar">
 
@@ -68,13 +68,13 @@ or
     </declare-styleable>
 ```
 
-##More
+## More
 ----
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BounceProgressBar-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1221)
 
 More detail please see blog: [http://blog.csdn.net/bbld_/article/details/41246247](http://blog.csdn.net/bbld_/article/details/41246247 "csdn blog")
 
-##License
+## License
 -------
 
 ```
